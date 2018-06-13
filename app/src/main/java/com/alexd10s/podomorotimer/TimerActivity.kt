@@ -19,8 +19,8 @@ class TimerActivity : AppCompatActivity() {
 
     companion object {
         val STOPPED = 0
-        val PAUSED = 0
-        val RUNNING = 0
+        val PAUSED = 1
+        val RUNNING = 2
         val MINUTES = 25
 
         val nowSeconds: Long
